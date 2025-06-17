@@ -27,5 +27,5 @@ console.log(object2); // Output: { a: 1, b: 2, c: 3, d: 4 }
 console.log(object3); // Output: { a: 1, b: 5, c: 3 }
 
 // Copying only part of an array/object
-let array5 = [...array1, {...object1}], ...array3, "x", "y", "z"]; // Using the spread operator to combine arrays and objects
+let array5 = [...array1, {...object1}, ...array3, "x", "y", "z"]; // Using the spread operator to combine arrays and objects
 console.log(array5); // Output: [1, 2, 3, { a: 1, b: 2, c: 3 }, 4, 5, 6, "x", "y", "z"]
