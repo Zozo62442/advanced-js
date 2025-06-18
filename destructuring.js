@@ -1,7 +1,4 @@
-/**
- * To run this file in Gitpod, use the 
- * command node destructuring.js in the terminal
- */
+// Destructuring method is a way to extract values from arrays or properties from objects into distinct variables. It simplifies the process of accessing data structures and makes the code cleaner and more readable.
 
 // Destructuring arrays
 let ages = [30, 26, 27];
@@ -18,7 +15,7 @@ let jobs = {
     alicia: "accountant"
 };
 let { mike, jill, alicia } = jobs;
-console.log(mike, jill, alicia);
+console.log(mike, jill, alicia); // Output: developer developer accountant
 
 // Destructuring subsets
 let languages = ["english", "french", "spanish", "german", "japanese"];
